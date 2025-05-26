@@ -1,0 +1,128 @@
+
+/* Reset default margin, padding, and box-sizing for all elements, and set a default font-family */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+/* Style for the header section */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 10px 20px;
+    background-color: #f1f1f1;
+}
+
+/* Style for the logo container inside the header */
+.logo-container {
+    flex: 1;
+}
+
+/* Style for the navigation container inside the header */
+.nav-container {
+    flex: 2;
+}
+
+/* Style for the navigation list inside the navigation container */
+.nav-container nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style for each list item inside the navigation list */
+.nav-container nav ul li {
+    list-style: none;
+    margin-right: 40px;
+}
+
+/* Style for the links inside each list item */
+.nav-container nav ul li a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: #333;
+    padding: 10px 20px;
+    transition: color 0.3s;
+    display: inline-block;
+    margin-left: 20px; 
+}
+
+/* Hover effect for the links inside each list item */
+.nav-container nav ul li a:hover {
+    color: rgb(48, 18, 145);
+}
+
+/* Style for the main content section */
+main {
+    padding: 20px;
+}
+
+/* Style for the headings inside the main content section */
+main h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 5px;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+    padding: 20px;
+}
+
+/* Style for the paragraphs inside the main content section */
+main p {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    font-size: 15px;
+}
+
+/* Style for the table inside the main content section */
+table {
+    margin: 20px auto;
+    width: 80%;
+    max-width: 500px;
+    font-size: 12px;
+    border-collapse: collapse;
+    background: #fff;
+}
+
+/* Style for the table, table headers, and table cells */
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+/* Style for the table headers and table cells */
+th, td {
+    text-align: center;
+    padding: 10px;
+}
+
+/* Style for the table headers */
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Style for even rows in the table */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Style for the footer section */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    background-color: #f1f1f1;
+    padding: 10px 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

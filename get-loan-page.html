@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loan Application</title>
+    <link rel="stylesheet" href="get-loan.css">
+</head>
+<body>
+    <form id="loanForm"> 
+        <div class="fieldset-container">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label for="full_name">Full Name:</label>
+                <input type="text" id="full_name" name="full_name" placeholder="John Doe" required> 
+                
+                <label for="nrc_number">NRC Number:</label>
+                <input type="text" id="nrc_number" name="nrc_number" placeholder="123456/78/9" required> 
+                
+                <label for="phone_number">Phone Number:</label>
+                <input type="tel" id="phone_number" name="phone_number" placeholder="+260-123-456-789" required>
+
+                <label for="email_address">Email Address:</label>
+                <input type="text" id="email_address" name="email_address" placeholder="example@gmail.com" required> 
+            </fieldset>
+        </div>
+        
+        <div class="fieldset-container">
+            <fieldset>
+                <legend>Loan Details</legend>
+                <label for="collateral_type">Collateral Type:</label>
+                <input type="text" id="collateral_type" name="collateral_type" placeholder="Car, Phone, laptop etc." required> 
+                
+                <label for="is_student">Are you a student?</label>
+                <input type="checkbox" id="is_student" name="is_student"> 
+                
+                <label for="university_name">University (if student):</label>
+                <input type="text" id="university_name" name="university_name" placeholder="University Name"> 
+                
+                <label for="amount">Loan Amount:</label>
+                <input type="number" id="amount" name="amount" placeholder="K5000" required> 
+            </fieldset>
+        </div>
+        
+        <button type="submit">Apply for Loan</button> 
+    </form>
+
+    <script src="index.js"></script>
+</body>
+</html>

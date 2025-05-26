@@ -1,0 +1,64 @@
+/* Style for the body element to center content and set background */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'popins', sans-serif;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+/* Style for the registration form container */
+#registerForm {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    height: 250px;
+}
+
+/* Style for the heading inside the registration form */
+#registerForm h1 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+    color: #333;
+}
+
+/* Reset margin, padding, and border for elements with class 'register' */
+.register {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+/* Style for input fields inside elements with class 'register' */
+.register input {
+    width: 100%;
+    height: 30px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    margin-bottom: 10px; 
+}
+
+/* Style for the button element */
+button {
+    width: 100%;
+    height: 45px;
+    margin-top: 20px;
+    padding: 15px 15px;
+    border: none;
+    border-radius: 30px;
+    background-color: rgb(48, 18, 113);
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Style for the button element on hover */
+button:hover {
+    background-color: rgb(48, 18, 135);
+    transition: background-color 0.3s ease;
+}
